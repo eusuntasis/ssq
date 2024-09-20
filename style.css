@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #1a1a1a, #3a3a3a);
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a, #theme-toggle {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover, #theme-toggle:hover {
+    color: #ff5733;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.about, .me {
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 87, 51, 0.1);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+}
+
+body.night-mode {
+    background: #1a1a1a;
+}
+
+body.night-mode header,
+body.night-mode footer {
+    background: #222;
+}
+
+body.night-mode .about,
+body.night-mode .me {
+    background: rgba(255, 87, 51, 0.2);
+}
+
+input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff3d24;
+}
